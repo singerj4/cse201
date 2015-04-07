@@ -6,22 +6,35 @@ body{
 .header h1,h4{
 color : White;
 text-align : center;
+padding : 5px;
 }
 
 .header{
 width : auto; /* Using auto adjust the size, according to the page view*/
 
 border-width : 3px;
-
+padding : 5px;
 
 }
-.search{
 
+.nav {
+line-height: 30px;
+background-color: ffffff;
+height = 300px;
+widht = 100px;
+float = left;
+padding = 5px;
 }
 
 .table{
 width : auto;
 background-color = red;
+}
+
+.section table{
+width : 30px;
+float : left;
+padding : 10px;
 }
 
 .search p{
@@ -51,42 +64,6 @@ float : left;
 margin-right : 2.0em;
 }
 
-#navMenu{
-margin : 0;
-padding: 0;
-}
-#navMenu ul {
-margin : 0;
-padding: 0;
-line-height : 20px;
-}
-
-#navMenu li{
-margin : 0;
-padding: 0;
-list-item: none;
-float: left;
-position : relative;
-}
-
-#navMenu ul li a {
-text-align : center;
-text-decoration: none;
-height : 30px;
-width : 150px;
-display : block;
-}
-
-#naveMenu ul ul {
-positon : absolute
-visibility: hidden;
-top : 30px;
-
-}
-
-#naveMen ul li : hover ul {
-visibility: visible;
-}
 
 #sidebar{
 float : right;
@@ -114,6 +91,12 @@ position:absolute;
   
   
   }
+  
+ .table{
+ float : left;}
+  
+  
+  
   
  form { width: 400px; }
 
